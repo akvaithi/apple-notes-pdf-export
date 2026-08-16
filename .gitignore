@@ -1,0 +1,21 @@
+# Staging output — contains copies of the Notes database, note bodies and
+# titles. Never commit any of it.
+db/
+html/
+raw/
+paged/
+*.tsv
+*.log
+*.pdf
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# compiled helpers
+bin/render
+bin/paginate
+bin/pdfmerge
+bin/audit
+*.dSYM/
+
+.DS_Store
